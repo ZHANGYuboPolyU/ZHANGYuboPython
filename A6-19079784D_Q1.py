@@ -18,6 +18,7 @@ def crypto(m,N,order):
                 c.append(j)       
     #encryption
     else:
+        l=len(m)//N
         b=[0]*len(m)
         i=0
         for n in order:
